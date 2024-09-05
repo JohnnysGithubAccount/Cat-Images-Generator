@@ -1,0 +1,20 @@
+artifact_path: discriminator
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.10.13
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.10.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 2.15.1
+model_size_bytes: 8597478
+model_uuid: 9c1bf9a774ce418da57591c93cecfcc7
+run_id: 6d5ec26eb32f456089142764ee67dfd0
+utc_time_created: '2024-08-10 01:48:26.295941'
